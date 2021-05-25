@@ -2,34 +2,31 @@ package dominio;
 
 import java.io.Serializable;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
 
-@Entity
 public class Produto implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
-	@Id
-	private int codigo;
+
+	private String codigo;
 	private String descricao;
-	private double preco;
+	private String preco;
 	
 	public Produto() {
 		
 	}
 	
-	public Produto(int codigo, String descricao, double preco) {
+	public Produto(String codigo, String descricao, String preco) {
 		super();
 		this.codigo = codigo;
 		this.descricao = descricao;
 		this.preco = preco;
 	}
 
-	public int getCodigo() {
+	public String getCodigo() {
 		return codigo;
 	}
 
-	public void setCodigo(int codigo) {
+	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
 
@@ -41,12 +38,12 @@ public class Produto implements Serializable {
 		this.descricao = descricao;
 	}
 
-	public double getPreco() {
+	public String getPreco() {
 		return preco;
 	}
 
-	public void setPreco(double preco) {
-		this.preco = preco;
+	public void setPreco(String string) {
+		this.preco = string;
 	}
 
 	@Override
