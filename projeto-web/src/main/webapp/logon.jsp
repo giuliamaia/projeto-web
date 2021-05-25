@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="style.css">
 <body>
 <h1>Entre na sua conta</h1>
-<form name=frmLogon action="">
+<form name=frmLogon action="entrarNaConta">
 		<table>
 			<tr>
 				<td><input type="text" name="email" placeholder="E-mail" class=Caixa></td>
@@ -18,8 +18,8 @@
 				<td><input type="password" name="senha" placeholder="Senha" class=Caixa></td>
 			</tr>
 		</table>
-		<input type="button" value="Acessar" onclick="" class=Botao>
-	</form>
-<script src=""></script>
+		<input type="button" value="Acessar" onclick="validarLogon()" class=Botao>
+</form>
+<script src="scripts/validacao.js"></script>
 </body>
 </html>

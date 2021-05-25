@@ -12,17 +12,21 @@
 	<form name=frmProduto action="cadastrarProduto">
 		<table>
 			<tr>
-				<td><input type="number" name="codigo" placeholder="Código" min="1" class=Caixa1></td>
+				<td><input type="number" name="codigo" placeholder="Código"
+					min="1" class=Caixa1></td>
 			</tr>
 			<tr>
-				<td><input type="number" name="preco" placeholder="Preço" step="0.01" min="0.01"class=Caixa1></td>
+				<td><input type="number" name="preco" placeholder="Preço"
+					step="0.01" min="0.01" class=Caixa1></td>
 			</tr>
 			<tr>
-				<td><textarea name="descricao" placeholder="Descrição" maxlength="100" class=Caixa2></textarea></td>
+				<td><textarea name="descricao" placeholder="Descrição"
+						maxlength="100" class=Caixa2></textarea></td>
 			</tr>
 		</table>
-		<input type="button" value="Cadastrar" onclick="validarProduto()" class=Botao>
+		<input type="button" value="Cadastrar" onclick="validarProduto()"
+			class=Botao>
 	</form>
-<script src="scripts/validador.js"></script>
+	<script src="scripts/validacao.js"></script>
 </body>
 </html>

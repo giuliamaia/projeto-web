@@ -1,4 +1,4 @@
-package dominio;
+package model.classes;
 
 import java.io.Serializable;
 

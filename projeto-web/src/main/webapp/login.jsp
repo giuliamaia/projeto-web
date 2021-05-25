@@ -23,6 +23,6 @@
 		</table>
 		<input type="button" value="Cadastrar" onclick="validarUsuario()" class=Botao>
 	</form>
-<script src="scripts/validador.js"></script>
+<script src="scripts/validacao.js"></script>
 </body>
 </html>
