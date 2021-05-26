@@ -145,10 +145,8 @@ public class Controller extends HttpServlet {
 	}
 	
 	protected void deletar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String codigo = request.getParameter("codigo");
-		System.out.println(codigo);
 		//removo o produto do repositorio
-		listaProdutos.removerProduto(codigo);
+		listaProdutos.removerProduto(request.getParameter("codigo"));
 		//direciono para a pagina de listagem atualizada
 		response.sendRedirect("listarProdutos");
 	}

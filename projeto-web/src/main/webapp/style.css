@@ -21,6 +21,7 @@ h1 {
 	border: 0;
 	cursor: pointer;
 	
+	
 }
 
 .BotaoEd {
@@ -72,23 +73,35 @@ h1 {
 }
 
 .tabela {
-	margin: 30px;
+	margin: auto;
+	margin-top: 30px;
+	
 }
 
 .tabela th {
-	border: 5px solid #ddd;
+	border: 5px solid #fff;
 	padding: 10px;
-	text-align: left;
+	text-align: center;
+	vertical-align: middle;
 	background-color: #ffa05d;
 	align-items: center;
+	color: #fff;
 	
 }
 
 .tabela tbody {
 	border: 5px solid #ddd;
-	padding: 10px;
-	text-align: left;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	vertical-align: middle;
 	background-color: #fff;
-	align-items: center;
 	
+}
+
+.tabela td {
+	height: 30px;
+}
+
+.div {
+	height: 90px;
 }

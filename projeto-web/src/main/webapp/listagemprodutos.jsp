@@ -14,8 +14,10 @@
 <%ArrayList<Produto> lista = (ArrayList<Produto>)request.getAttribute("produtos"); %>
 <body>
 	<form action="listarProdutos" method="get">
-		<h1>Produtos cadastrados</h1>	
+		<h1 align="center">Produtos cadastrados</h1>	
+		<div align="center">
 		<a href="cadastroproduto.jsp" class=Botao>Novo produto</a>
+		</div>
 		<table class="tabela">
 			<thead>
 				<tr>
@@ -32,7 +34,7 @@
 					<td><%=lista.get(i).getCodigo() %></td>
 					<td><%=lista.get(i).getDescricao() %></td>
 					<td><%=lista.get(i).getPreco() %></td>
-					<td><a href="editar?codigo=<%=lista.get(i).getCodigo()%>" class=BotaoEd >Editar</a></td>
+					<td><a href="editar?codigo=<%=lista.get(i).getCodigo()%>" class=BotaoEd>Editar</a></td>
 					<td><a href="javascript: confirmar(<%=lista.get(i).getCodigo()%>)" class=BotaoEx>Excluir</a></td>
 				<tr/>
 				<%} %>
