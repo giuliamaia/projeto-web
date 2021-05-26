@@ -7,8 +7,8 @@ FERRAMENTAS UTILIZADAS:
 * Maven (maven-archetype-webapp)
 * Java 8
 * Wildfly 11
-Registros foram salvos em memoria
-Arquitetura utilizada: Padrão MVC
+* Registros foram salvos em memoria
+* Arquitetura utilizada: Padrão MVC
 
 FUNCIONALIDADES:
 * Na tela inicial temos 3 botões:
