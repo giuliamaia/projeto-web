@@ -8,9 +8,9 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-<h1>Cadastro de Usuário</h1>
+<h1 align="center">Cadastro de Usuário</h1>
 <form name=frmUsuario action="cadastrarUsuario">
-		<table>
+		<table align="center">
 			<tr>
 				<td><input type="text" name="nome" placeholder="Nome" class=Caixa></td>
 			</tr>
@@ -20,8 +20,10 @@
 			<tr>
 				<td><input type="password" name="senha" placeholder="Senha" class=Caixa></td>
 			</tr>
+			<tr>
+				<td><input type="button" value="Cadastrar" onclick="validarUsuario()" class=Botao></td>
+			</tr>
 		</table>
-		<input type="button" value="Cadastrar" onclick="validarUsuario()" class=Botao>
 	</form>
 <script src="scripts/validacao.js"></script>
 </body>

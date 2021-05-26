@@ -55,6 +55,28 @@ function validarProduto() {
 	}
 }
 
+function validarEdicao() {
+
+	let descricao = frmEdicao.descricao.value
+	let preco = frmEdicao.preco.value
+
+	if (descricao === "") {
+		alert('Preencha o campo Descrição')
+		frmEdicao.email.focus()
+		return false
+	} else if (preco === "") {
+		alert('Preencha o campo Preço')
+		frmEdicao.senha.focus()
+		return false
+	} else if (preco <= 0.00) {
+		alert('Preencha o campo Preço com um valor maior que R$0')
+		frmEdicao.senha.focus()
+		return false
+	} else {
+		document.forms["frmEdicao"].submit()
+	}
+}
+
 function validarLogon() {
 	let email = frmLogon.email.value
 	let senha = frmLogon.senha.value

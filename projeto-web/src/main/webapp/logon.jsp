@@ -8,17 +8,20 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-<h1>Entre na sua conta</h1>
+<h1 align="center">Entre na sua conta</h1>
 <form name=frmLogon action="entrarNaConta">
-		<table>
+		<table align="center">
 			<tr>
 				<td><input type="text" name="email" placeholder="E-mail" class=Caixa></td>
 			</tr>
 			<tr>
 				<td><input type="password" name="senha" placeholder="Senha" class=Caixa></td>
 			</tr>
+			<tr>
+				<td><input type="button" value="Acessar" onclick="validarLogon()" class=Botao></td>
+			</tr>
 		</table>
-		<input type="button" value="Acessar" onclick="validarLogon()" class=Botao>
+		
 </form>
 <script src="scripts/validacao.js"></script>
 </body>

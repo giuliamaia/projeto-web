@@ -6,11 +6,12 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>S * C * P</h1>
-<p>Sistema de cadastro de produtos</p>
+<h1 align="center">S * C * P</h1>
+<p align="center">Sistema de cadastro de produtos</p>
 
-<a href="login" class=Botao >Login</a>
-<a href="logon" class=Botao >Logon</a>
-<a href="listagemprodutos.jsp" class=Botao >Acessar</a>
+<div align="center">
+<a href="login.jsp" class=Botao >Login</a>
+<a href="logon.jsp" class=Botao >Logon</a>
+<a href="listarProdutos" class=Botao >Acessar</a></div>
 </body>
 </html>

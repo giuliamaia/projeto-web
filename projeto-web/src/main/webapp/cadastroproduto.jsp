@@ -8,9 +8,9 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-	<h1>Cadastrar novo produto</h1>
+	<h1 align="center">Cadastrar novo produto</h1>
 	<form name=frmProduto action="cadastrarProduto">
-		<table>
+		<table align="center">
 			<tr>
 				<td><input type="number" name="codigo" placeholder="Código"
 					min="1" class=Caixa1></td>
@@ -23,9 +23,11 @@
 				<td><textarea name="descricao" placeholder="Descrição"
 						maxlength="100" class=Caixa2></textarea></td>
 			</tr>
+			<tr>
+				<td><input type="button" value="Cadastrar"
+					onclick="validarProduto()" class=Botao></td>
+			</tr>
 		</table>
-		<input type="button" value="Cadastrar" onclick="validarProduto()"
-			class=Botao>
 	</form>
 	<script src="scripts/validacao.js"></script>
 </body>
