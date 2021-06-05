@@ -47,9 +47,6 @@ FUNCIONALIDADES:
         * Botao de salvar: verifica se os dados são válidos
               * Se sim, efetua a edição
               * Se não, retorna avisos
-
-DIFICULDADES ENCONTRADAS:
-* Não consegui utilizar o framework Hibernate para criação de um banco h2
               
     
         
